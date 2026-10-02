@@ -1,0 +1,44 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+  background-color: #f4f6fb;
+  color: #222;
+}
+
+h2 {
+  color: #4a6cf7;
+}
+
+/* ===== TABLA ===== */
+#tablaJuegos {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+}
+
+#tablaJuegos th,
+#tablaJuegos td {
+  border: 1px solid #c9d1e6;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+/* Cabecera destacada */
+#tablaJuegos thead th {
+  background-color: #4a6cf7;
+  color: white;
+  font-weight: bold;
+}
+
+/* Efecto cebra: filas pares de otro color */
+#tablaJuegos tbody tr:nth-child(even) {
+  background-color: #eef1fe;
+}
+
+/* Efecto hover: la fila cambia al pasar el ratón */
+#tablaJuegos tbody tr:hover {
+  background-color: #ffe08a;
+  cursor: pointer;
+}
